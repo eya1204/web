@@ -1,0 +1,96 @@
+@import "style.css"; /* import style de l'entête du menu et du pied de page */
+@import "stylecote.css"; /* import style de la presentation sur le cote */
+/****************************************************** CV ****************************************************************/
+nav ul li.menupro {
+	background-color: #CE93A6;  /* reste bleu quand on est sur la page */
+}
+
+
+.titre {  
+	font-size: 25px;                             /* titre de la page */
+	text-align: center;
+	color: black;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 35px;
+	border: 2px solid #CE93A6;
+	width: 20%;
+	text-transform: none;  /* ne met pas le titre en maj */
+}
+
+.cv {     /* block cv qui prend toute la page */
+	width: 80%;
+	margin: auto;  /* centre le cv sur la page */
+	font-size: 17px;
+}
+
+/****************************************************** en tete du cv ******************************************/
+
+.haut{    
+	height: 200px;
+}
+
+.info {      /* infos a cote de la photo */
+	float: left;
+}
+
+.photo {    /* partie photo*/
+	float: right;
+}
+	 
+.haut img {     /* photo */
+	border-radius: 40px;
+	width:150px;
+	height: 150px;
+}
+
+/************************************************************************************************************/
+
+h2 {   /* titre des parties */
+	font-size: 28px;
+	color: #CE93A6;
+	text-transform: uppercase;   /* met en majuscule */
+	border-bottom: 2px solid #CE93A6;   /* separe les parties */
+}
+
+
+article {     /* chaque partie du cv */
+	text-align: justify;
+	margin-bottom: 40px;  /* espace les parties */
+}
+
+.cote {  /* sur le cote gauche les dates et rubriques */
+	float: left;
+	font-weight: bold;
+}
+
+.droite { /* sur le cote droit */
+	margin-left: 150px;
+}
+
+#rub {    /* decale les rubrique opur les aligner */
+	margin-top: 360px;
+	margin-bottom: 100px;
+}
+
+/**************************************************** interractions **********************************************/
+
+.cv a{    /* met les liens en noir */
+	color: black;
+}
+
+.cv a:hover {   /* quand on passe dessus */
+	color: blue;
+}
+
+/********************************** REVENIR EN HAUT **********************************/
+.bouton{
+	position: fixed;
+	bottom: 40px;
+	right: 15px;
+}
+
+.bouton img{
+	width: 20px;
+	height: 20px;
+}

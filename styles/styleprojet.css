@@ -1,0 +1,65 @@
+@import "style.css"; /* import style de l'entête du menu et du pied de page */
+
+
+
+/**************************************************************** PROJET ****************************************************************/
+nav ul li.menupro {
+	background-color: #CE93A6;  /* reste bleu quand on est sur la page */
+}
+
+.titre {  
+	font-size: 25px;                             /* titre de la page */
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 35px;
+	border: 2px solid #CE93A6;
+	width: 20%;
+}
+
+h3 {          /* titre d'intro */
+	text-align: left;
+	font-size: 20px;   
+	margin-left: 25px;
+}
+
+h4 {		/* titre des projets */
+	font-size: 25px; 
+	color : #CE93A6;
+}
+	 
+section {                /* le gros bloc qui fait toute la page */
+	margin: 0 auto;
+	font-size: 17px; 
+	width: 85%;
+	text-align: justify;
+}
+
+section div {          /* delimitation avec les autres projets */
+	border-bottom: 2px solid #CE93A6;
+	
+}
+div{
+	padding-bottom: 15px;
+}
+
+div:last-child{  /* le dernier article */
+	border-bottom: none;   /* pas de délimitation */
+}
+
+img {          
+	width: 40%;
+	height: 40%;
+	margin: 0 auto;       /* met les images au milieu */
+	display: table;
+}
+
+section a{    /* met les liens en noir */
+	color: black;
+}
+
+section a:hover {   /* quand on passe dessus */
+	color: blue;
+}
+
+

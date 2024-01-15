@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Contact * Eya LOUKIL</title>
+		<link rel='stylesheet' type='text/css' href='../styles/stylecontact.css'>
+	</head>
+	<body>
+		<header>	
+		<h1> Eya LOUKIL </h1>
+			
+		</header>
+<!-- ..................................................MENU................................................................................ -->
+		<nav>  <!-- lien de navigation -->
+				<ul>    <!-- accueil -->
+					<li class="menuaccueil"><a href="../index.html">Accueil</a></li>
+					
+					<!-- menu pro -->
+					<li class="menupro"><a href="#">Professionnel</a>
+						<!-- sous menu pro -->
+						<ul  class="sousmenu">
+							<li><a href="projet.html"> Projets </a></li>
+							<li><a href="cv.html"> Mon CV </a></li>
+						</ul>
+					</li>
+					
+					<!-- centres d'interet -->		
+					
+					
+					<li class="mat"><a href="matière.html">Matières</a>
+					</li>
+					<li class="qui"><a href="Quiz.html">Quizz</a>
+					</li>
+					
+					<!-- me contacter -->
+					<li class="contact"><a href="contact.html"> Me contacter </a></li>
+					
+				</ul>
+			</nav>
+<!-- ...................................................................................................................................................................... -->
+
+<!-- ............................................................... CONTACT .................................................................................... -->
+			<div class="formulaire">
+				
+				
+				<form method="post" action="http://www.iut-fbleau.fr/sitebp/get.php">
+					<fieldset>
+						<legend>Formulaire de contact</legend>
+						<p>
+							<label for="nom">Entrez votre nom: </label>  
+							<input type="text" id="nom" name="nom" required>  <!-- required pour obliger remplir -->
+						</p>
+						<br>
+						<p>
+							<label for="mail">Entrez votre email: </label>  
+							<input type="email" id="mail" name="mail" required>
+						</p>
+						<br>
+						<p>
+							<label for="message">Message: </label>
+							<textarea name="msg" id="message"></textarea>
+						</p>
+						<br><br>
+						<input type="submit" value="Envoyer">
+						<input type="reset" value="Recommencer">
+					
+					</fieldset>
+				</form>
+			</div>
+<!-- ......................................................................... PIED DE PAGE ............................................................................................. -->
+			
+<!-- ...................................................................................................................................................................... -->
+<footer>  
+	<p class="gauchepdp">
+		LOUKIL Eya
+	</p>
+	<p class="droitepdp">
+		<a href="mailto:eyaloukil687@gmail.com">Envoyer un mail</a>
+	</p>
+	
+	<p>
+		Projet dans le cadre du Programmation Web - IIT - 2023
+	</p>
+	
+	<div style="clear : both"></div>
+</footer>
+	</body>
+</html>

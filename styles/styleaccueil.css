@@ -1,0 +1,69 @@
+@import "style.css"; /* import style de l'entête du menu et du pied de page  */
+
+/******************************************************************** ACCUEIL *************************************************************************/
+nav ul li.menuaccueil {
+	background-color: #CE93A6; /* reste bleu quand on est sur la page */
+}
+
+.presentation { 
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+.accueil p {
+	margin-left: 25%;
+	font-size: 17px;
+}
+
+/****************************** cote ***************************************************************/
+aside {                         /* je n'integre pas le stylecote comme sur les autres pages */
+	margin: 10px;                   /* pour ne pas quil disparaisse sur les tablettes */
+	padding: 10px;
+	border: 1px solid #CE93A6;  
+	border-radius: 30px;      
+	width: 20%;
+	float: left;
+}
+
+aside p {       /* la presentation */
+	display: inline-block;
+}
+
+.profil {      /* photo accueil */
+	margin-bottom: 15px;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 50px;  
+	float: left;
+	width: 100%;
+	height: 50%;
+}
+
+.iconepdf img{   /* icone pdf cv */
+	width: 32px;
+	height: 32px;
+}
+
+/*******************************************************************************************************/
+.presentation a {
+	color: black;
+}
+
+.presentation a:hover{
+	color: blue;
+}
+
+
+
+/**************************************************************************************/
+/**************************** POUR LES TABLETTES *************************************************************/
+@media screen and (max-width: 1024px){
+ 
+		
+	iframe {
+		height:350px;      /* reduit taille map */
+		width: 500px;
+	}
+
+}

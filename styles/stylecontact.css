@@ -1,0 +1,45 @@
+@import "style.css"; /* import style de l'entête du menu et du pied de page */
+@import "stylecote.css"; /* import style de la presentation sur le cote */
+/*********************************************** CONTACT *****************************************************/
+nav ul li.contact {
+	background-color: #CE93A6;  /* reste bleu quand on est sur la page */
+}
+ 
+.formulaire {                /* le gros bloc qui fait toute la page */
+	margin: auto;
+	margin-top: 30px;
+	font-size: 17px; 
+	text-align: justify;
+	width: 90%;
+	padding-bottom: 100px;
+}
+
+form {    
+	display: table;   /* met le formulaire au milieu */
+	margin: 0 auto;
+}
+
+legend  {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+fieldset {
+	padding: 10px;
+	margin: 20px;
+}
+
+section  a{    /* met les liens en noir */
+	color: black;
+}
+
+section a:hover {   /* quand on passe dessus */
+	color: blue;
+}
+
+/**************************************** PIED DE PAGE **********************************/
+
+footer {     
+	bottom: 0;       
+	position: fixed;  /* met le pied de page en bas car page plus petite */
+	}
